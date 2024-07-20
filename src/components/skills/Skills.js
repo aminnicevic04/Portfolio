@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import reactcert from "../assets/ReactCert.png";
-import merncert from "../assets/MernCert.png";
+import merncert from "../assets/Amin_Nicevic.png";
 import "./Skills.css";
 
 const Skills = () => {
@@ -11,22 +11,22 @@ const Skills = () => {
         <div className="skill_text">
           <h1>Skills & Certifications</h1>
           <p>
-            With over a year of experience in web development, I have worked
-            with clients to build a variety of dynamic, responsive web
-            applications using the latest tools and technologies. Though I have
-            not worked for a company, I have gained valuable experience through
-            my work with clients, and have honed my skills
+            With over two years of experience in web development, I have
+            collaborated with clients to create dynamic, responsive web
+            applications utilizing the latest tools and technologies. My journey
+            includes working part-time roles at Centar NIT and MysticMash-AI,
+            where I gained valuable hands-on experience and honed my skills in a
+            professional environment.
           </p>
           <p>
-            In addition to my technical skills, I am a dedicated and
-            detail-oriented developer who takes pride in producing high-quality
-            work. I am always eager to expand my skill set and take on new
-            challenges, and am confident in my ability to create engaging and
-            high-performance web applications that meet the needs of businesses
-            and users alike.
+            In addition to my technical expertise, I am a dedicated and
+            detail-oriented developer committed to delivering high-quality work.
+            I am always eager to expand my skill set and embrace new challenges,
+            confident in my ability to craft engaging, high-performance web
+            applications that meet the needs of businesses and users alike.
           </p>
 
-          <a href="https://www.linkedin.com/in/dzenis-gudzevic-41460b244/">
+          <a href="https://www.linkedin.com/in/amin-nicevic">
             Visit my <span className="lnk">Linkedin</span> profile or
             <Link to="/contact" className="lnk">
               {" "}
@@ -47,14 +47,14 @@ const Skills = () => {
               <div class="skills react"></div>
             </div>
 
+            <p>Next Js</p>
+            <div class="container">
+              <div class="skills next"></div>
+            </div>
+
             <p>Backend</p>
             <div class="container">
               <div class="skills back"></div>
-            </div>
-
-            <p>Node Js</p>
-            <div class="container">
-              <div class="skills node"></div>
             </div>
           </div>
 
@@ -62,11 +62,12 @@ const Skills = () => {
             <div className="certificates">
               <div className="cart_card">
                 <div className="card_front">
-                  <h3>React, NodeJS, Express & MongoDB</h3>
-                  <span>Dec.25, 2022</span>
+                  <h3>Front-end 9 months IT-Camp</h3>
+                  <span>Dec.31, 2022</span>
                   <p>
-                    MERN course from udemy. This course gives me a great skills
-                    in both, frontend and backend
+                    9 month IT-camp. where we learned html css js and react.
+                    After that, we had an internship, where we worked on real
+                    projects.
                   </p>
                 </div>
                 <div className="card_backend">
@@ -78,7 +79,7 @@ const Skills = () => {
               <div className="cart_card">
                 <div className="card_front">
                   <h3>React Js, Redux and Hooks</h3>
-                  <span>Sep.19, 2022</span>
+                  <span>Nov,21, 2023</span>
                   <p>
                     React course from udemy. This course gives me a great
                     introduction to ReactJS.

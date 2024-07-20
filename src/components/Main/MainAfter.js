@@ -33,7 +33,7 @@ const MainAfter = () => {
     <>
       <div className="about_section">
         <div className="about_text">
-          <h1 className="animate">Full-Stack Wizard</h1>
+          <h1 className="animate">Software Developer</h1>
           <p className="animate">
             {text1}
             <br />
@@ -43,7 +43,7 @@ const MainAfter = () => {
             <br />
             {text3}
           </p>
-          <Link to="/contact">Let's MERNify your ideas</Link>
+          <Link to="/contact">Let's craft your ideas</Link>
         </div>
         <div className="logo_list">
           {logos.map((logo, index) => (
@@ -63,8 +63,9 @@ const MainAfter = () => {
       <div className="whatdo_section">
         <h1>What I Can Do</h1>
         <p>
-          Whether you need a sleek, modern website or a custom web application,
-          I have the skills and experience to make it happen.
+          Whether you need a sleek, modern website, custom web application, or
+          ongoing work on larger projects, I have the skills and experience to
+          make it happen and the desire to learn new things.
         </p>
 
         <ScrollTrigger onEnter={onEnterViewport}>
@@ -75,7 +76,7 @@ const MainAfter = () => {
                 <h3>Frontend Development</h3>
                 <p>
                   I can create responsive and intuitive user interfaces using
-                  modern web technologies like HTML, CSS, and JavaScript.
+                  modern web technologies like React and NextJS.
                 </p>
               </div>
             </div>
@@ -84,18 +85,20 @@ const MainAfter = () => {
                 <FaCode size={40} />
                 <h3>Backend Development</h3>
                 <p>
-                  I can develop robust and scalable server-side applications
-                  using Node.js and popular frameworks like Express and NestJS.
+                  I am currently in the process of learning NodeJS, Mongo DB,
+                  Mongoose and mySQL, Express and Nest JS.
                 </p>
               </div>
             </div>
             <div className={`card ${isTriggered ? "slide-in-bottom" : ""}`}>
               <div class="card_content">
                 <FaPaintBrush size={40} />
-                <h3>Design</h3>
+                <h3>UI Frameworks</h3>
                 <p>
-                  I can design beautiful and engaging websites and user
-                  interfaces using tools like Figma.
+                  With extensive experience in using various UI libraries such
+                  as SCSS, Tailwind CSS, Ant-Design, Material-UI,
+                  Styled-components, ShadCN, Mantin UI and many others UI
+                  libraries.
                 </p>
               </div>
             </div>

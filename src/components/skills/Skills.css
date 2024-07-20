@@ -83,22 +83,22 @@
 }
 
 .front {
-  width: 78%;
+  width: 90%;
   background-color: rgb(236, 67, 67);
 }
 
 .react {
-  width: 65%;
+  width: 100%;
   background-color: aqua;
 }
 .back {
-  width: 45%;
-  background-color: #2196f3;
+  width: 20%;
+  background-color: #67ea60;
 }
 
-.node {
-  width: 49%;
-  background-color: #67ea60;
+.next {
+  width: 50%;
+  background-color: #2196f3;
 }
 
 .certificates {

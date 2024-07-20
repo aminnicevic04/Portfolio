@@ -47,17 +47,17 @@ const Contact = () => {
               </span>
             ))}
             <br />
-            Tell me about your current project
+            Tell me about your current project.
           </h1>
           <p>
-            Interested in working together on a MERN stack project? Reach out
-            and let's discuss how we can collaborate.
+            Interested in working together on project? Reach out and let's
+            discuss how we can collaborate.
           </p>
           <p className="mail">
             <span>
               <AiOutlineMail />
             </span>
-            <span className="mail_se">frontprogramer@gmail.com</span>
+            <span className="mail_se">aminnicevic@gmail.com</span>
           </p>
         </div>
         <form className="contact_form" onSubmit={sendEmailHandler}>

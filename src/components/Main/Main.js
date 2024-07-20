@@ -3,7 +3,7 @@ import MainAfter from "./MainAfter";
 import "./Main.css";
 import { Link } from "react-router-dom";
 
-const helloText = "I'm Dzenis.";
+const helloText = "I'm Amin.";
 const loveText = `I love to build amazing apps.`;
 
 const Main = () => {
@@ -53,7 +53,8 @@ const Main = () => {
             ))}
           </h1>
           <p className="magician">
-            MERN Stack Magician: Crafting Powerful Web Applications
+            Software Developer - Crafting Powerful Web Applications and
+            Softwares
           </p>
           <Link to="/contact">
             <button>Contact me!</button>

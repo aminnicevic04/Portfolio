@@ -29,8 +29,8 @@ const Navigation = () => {
         >
           <img src={logo} alt="logo" />
         </Link>
-        <p>
-          Full stack <br />
+        <p className="sd">
+          Software <br />
           developer
         </p>
         <ul className="menu">
@@ -81,12 +81,16 @@ const Navigation = () => {
         </ul>
 
         <div className="icons">
-          <a href="https://github.com/Dzenoo" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/aminnicevic04"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineGithub />
           </a>
 
           <a
-            href="https://www.linkedin.com/in/dzenis-gudzevic-41460b244/"
+            href="https://www.linkedin.com/in/amin-nicevic"
             target="_blank"
             rel="noreferrer"
           >
